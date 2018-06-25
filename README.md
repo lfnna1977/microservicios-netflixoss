@@ -11,6 +11,6 @@ Use this way to build the entire project without tests
 $ mvn clean compile package -Dmaven.test.skip=true
 ```
 ```bash
-Se ha añadido codigo para verificar
+Se ha añadido codigo para verificar que si funciona lo del repositorio consultado.
 
 
