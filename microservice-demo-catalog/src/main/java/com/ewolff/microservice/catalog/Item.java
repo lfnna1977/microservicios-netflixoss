@@ -31,6 +31,7 @@ public class Item {
 		super();
 		this.name = name;
 		this.price = price;
+		System.out.println("Added by me in Item");
 	}
 
 	public String getName() {
