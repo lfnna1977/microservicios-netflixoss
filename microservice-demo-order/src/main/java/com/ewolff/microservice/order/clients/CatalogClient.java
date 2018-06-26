@@ -112,7 +112,6 @@ public class CatalogClient {
 	}
 
 	public Item getOneCache(long itemId) {
-		return itemsCache.stream().filter(i -> (i.getItemId() == itemId))
-				.findFirst().get();
+		return itemsCache.stream().filter(i -> (i.getItemId() == itemId)).findFirst().get();
 	}
 }

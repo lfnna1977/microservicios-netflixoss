@@ -13,8 +13,7 @@ import org.springframework.cloud.netflix.ribbon.RibbonClient;
 public class OrderApp {
 
 	public static void main(String[] args) {
-		SpringApplication.run(OrderApp.class, args);
-		System.out.println("Added by me in OrderApp");
+		SpringApplication.run(OrderApp.class, args);		
 	}
 
 }
