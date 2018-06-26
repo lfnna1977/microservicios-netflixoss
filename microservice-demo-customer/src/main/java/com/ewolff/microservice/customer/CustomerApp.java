@@ -32,6 +32,7 @@ public class CustomerApp {
 				"martin.michalsky@gmail.com", "Cochabamba", "Bolivia"));
 		customerRepository.save(new Customer("Julio", "Silva",
 				"julio.silva@gmail.com", "Cochabamba", "Bolivia"));
+		System.out.println("Added by me in CustomerApp");
 	}
 
 	public static void main(String[] args) {
